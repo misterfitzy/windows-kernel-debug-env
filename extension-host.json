@@ -1,15 +1,1 @@
-{
-  "publisher": "Microsoft.Compute",
-  "type": "CustomScriptExtension",
-  "typeHandlerVersion": "1.10",
-  "autoUpgradeMinorVersion": true,
-  "settings": {
-    "timestamp": 123456789
-  },
-  "protectedSettings": {
-    "fileUris": [
-      "https://dbgstordsep63uefxcxu.blob.core.windows.net/scripts/install-wdk-and-setup-debug.ps1"
-    ],
-    "commandToExecute": "powershell -ExecutionPolicy Unrestricted -File install-wdk-and-setup-debug.ps1 -role host"
-  }
-}
+{"properties":{"publisher":"Microsoft.Compute","type":"CustomScriptExtension","settings":{"timestamp":133903166612784160},"typeHandlerVersion":"1.10","autoUpgradeMinorVersion":true,"protectedSettings":{"commandToExecute":"powershell -ExecutionPolicy Unrestricted -File install-wdk-and-setup-debug.ps1 -role host","fileUris":["https://dbgstordsep63uefxcxu.blob.core.windows.net/scripts/install-wdk-and-setup-debug.ps1"]}},"location":"eastus"}
